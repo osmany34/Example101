@@ -9,12 +9,15 @@ public class Daire {
 
         Scanner inp = new Scanner(System.in);
 
+        // Kullanıcıdan dairenin yarıçapının alınması
         System.out.print("Dairenin yarı çapını giriniz : ");
         r = inp.nextInt();
 
+        // Kullanıcıdan merkez açısının ölçüsünün alınması
         System.out.print("Merkez açısının ölçüsünü giriniz : ");
         double alpha =inp.nextDouble();
 
+        //Daire diliminin alanı hesaplanması
         double alan = (pi * (r * r) * alpha) / 360;
         System.out.println("Daire diliminin alanı : " + alan);
 
