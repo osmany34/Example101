@@ -24,14 +24,14 @@ public class HesapMakinesi {
                 System.out.println("Toplama İşlemi Sonucu : " + (number_1 + number_2));
                 break;
             case 2 :
-                System.out.println("Çıkarma İŞlemi Sonucu : " + (number_1 - number_2));
+                System.out.println("Çıkarma İşlemi Sonucu : " + (number_1 - number_2));
                 break;
             case 3 :
                 System.out.println("Çarpma İşlemi Sonucu : " + (number_1 * number_2));
                 break;
             // Bölme işlemi (sıfıra bölme durumu)
             case 4 :
-                if (number_2 !=0){
+                if (number_1 !=0 && number_2 !=0){
                     System.out.println("Bölme İşlemi Sonucu : " + (double) number_1 / number_2);
                 }else {
                     System.out.println("Hatalı İşlem ! ");
