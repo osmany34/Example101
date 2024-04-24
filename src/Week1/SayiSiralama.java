@@ -8,6 +8,7 @@ public class SayiSiralama {
 
         Scanner input = new Scanner(System.in);
 
+        // Kullanıcıdan üç farklı sayı alınır
         System.out.print("1. Sayı : ");
         a = input.nextInt();
 
@@ -16,7 +17,8 @@ public class SayiSiralama {
 
         System.out.print("3. Sayı : ");
         c = input.nextInt();
-        
+
+        // Sayıları göre sıralar
         if ((a < b) && (a < c)){
             if (b < c){
                 System.out.println("a < b < c");
