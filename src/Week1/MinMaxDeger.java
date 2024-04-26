@@ -30,7 +30,6 @@ public class MinMaxDeger {
         }
 
         System.out.println("**********");
-        // Sonuçları ekrana yazdırma
         System.out.println("En büyük sayı : " + max);
         System.out.println("En küçük sayı : " + min);
     }
