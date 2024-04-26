@@ -10,15 +10,13 @@ public class AsalSayi {
         for (int i = 2; i <= 100; i++) {
             boolean asalMi = true;
 
-            // 2'den başlayarak sayıyı kendisine kadar olan tüm sayılarla bölünüp bölünmediğini kontrol etme
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) {
-                    asalMi = false; // Eğer sayı bir sayıya bölünüyorsa, asal değildir
-                    break; // Döngüden çık
+                    asalMi = false; // sayı bir sayıya bölünüyorsa, asal değildir
+                    break;
                 }
             }
 
-            // Eğer sayı asalsa ekrana yazdır
             if (asalMi) {
                 System.out.print(i + " ");
             }
