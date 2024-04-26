@@ -1,7 +1,4 @@
 package Week1;
-
-import java.util.Scanner;
-
 public class AsalSayi {
     public static void main(String[] args) {
         System.out.println("1 ile 100 arasındaki asal sayılar : ");
