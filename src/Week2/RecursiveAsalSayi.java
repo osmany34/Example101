@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class RecursiveAsalSayi {
 
+    // Recursive olarak bir sayının asal olup olmadığını kontrol eden metot
     static boolean isAsal (int sayi,int bolen){
         if (sayi <= 2){
             return (sayi == 2);
@@ -24,6 +25,7 @@ public class RecursiveAsalSayi {
             System.out.print("Sayı Giriniz : ");
             int sayi = input.nextInt();
 
+            // Alınan sayının asal olup olmadığını kontrol etme
             if (sayi <= 1){
                 System.out.println(sayi + " ASAL SAYI DEĞİLDİR !!");
             }else {
