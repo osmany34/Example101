@@ -25,7 +25,7 @@ public class DiziMinMaxSayi {
                 break;
             }
         }
-        System.out.println("Dizi : " + java.util.Arrays.toString(number));
+        System.out.println("Dizi : " + Arrays.toString(number));
         System.out.println("Girilen Sayı : " + inputNumber);
         System.out.println("Girilen sayıdan küçük en yakın sayı : " + numberSmaller);
         System.out.println("Girilen sayıdan büyük en yakın sayı : " + numberGreater);
