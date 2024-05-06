@@ -4,12 +4,11 @@ import java.util.Arrays;
 
 public class DiziMinMaxSayi {
     public static void main(String[] args) {
-        int[] number = {10, 9, 22, 1, 93, -6, -53, 0};
+        int[] number = {10, 9, 22, 1, 93, -6, -53, 0}; //Dizi tanımladım
         int inputNumber = 21;
+        Arrays.sort(number); //Diziyi sıralama
 
-        Arrays.sort(number);
-
-        int numberSmaller = Integer.MIN_VALUE;
+        int numberSmaller = Integer.MIN_VALUE; //Girilen en küçük sayıyay yakın sayı
         for (int num : number) {
             if (num < inputNumber) {
                 numberSmaller = num;
@@ -18,7 +17,7 @@ public class DiziMinMaxSayi {
             }
         }
 
-        int numberGreater = Integer.MAX_VALUE;
+        int numberGreater = Integer.MAX_VALUE; //Girilen en büyük sayıya yakın sayı
         for (int i = number.length - 1; i >= 0; i--) {
             if (number[i] > inputNumber) {
                 numberGreater = number[i];
